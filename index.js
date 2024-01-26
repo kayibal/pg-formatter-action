@@ -18,6 +18,7 @@ async function ensurePerlInstalled() {
 }
 
 async function downloadPgFormat() {
+    core.info(`Downloading ${pgFormatterUrl}`);
     // Download archive
     const formatterArchive = await tc.downloadTool(pgFormatterUrl);
 
