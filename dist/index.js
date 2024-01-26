@@ -14752,7 +14752,7 @@ const INPUT_PATTERN = core.getInput('pattern');
 const INPUT_FOLLOW_SYMBOLIC_LINKS = core.getInput('follow-symbolic-links').toLowerCase() === 'true';
 const INPUT_EXTRA_ARGS = core.getInput('extra-args') || '';
 
-const pgFormatterVersion = '5.1'
+const pgFormatterVersion = '5.5'
 const pgFormatterUrl = `https://github.com/darold/pgFormatter/archive/refs/tags/v${pgFormatterVersion}.zip`
 
 async function ensurePerlInstalled() {
